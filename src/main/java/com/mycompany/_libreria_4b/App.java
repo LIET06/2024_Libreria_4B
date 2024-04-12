@@ -4,6 +4,7 @@
 
 package com.mycompany._libreria_4b;
 
+
 import eccezioni.EccezionePosizioneNonValida;
 import eccezioni.EccezionePosizioneOccupata;
 import eccezioni.EccezionePosizioneVuota;
@@ -409,7 +410,7 @@ public class App
                          System.out.println("Impossibile accedere al file");
                     }
                     break;
-                case 10:
+                case 10: //deserializzzione
                     try 
                     {
                         ObjectInputStream reader=new ObjectInputStream(new FileInputStream(nomeFileBinario));
